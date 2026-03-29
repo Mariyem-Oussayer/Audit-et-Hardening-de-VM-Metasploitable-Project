@@ -47,19 +47,20 @@ Le framework adopte une approche Red Team / Blue Team et propose trois modes pri
 ## 🧩 Architecture
 
 Le projet est basé sur une architecture modulaire avec des plugins :
+```bash
 project/
+│
 ├── plugins/
-
-│ ├── scan/
-
-│ ├── attack/
-
-│ └── harden/
+│   ├── scan/
+│   ├── attack/
+│   └── harden/
 │
 ├── config/
 ├── logs/
 ├── reports/
 └── framework.sh
+```
+
 
 
 ---
