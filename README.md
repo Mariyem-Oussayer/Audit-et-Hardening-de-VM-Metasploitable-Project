@@ -49,8 +49,11 @@ Le framework adopte une approche Red Team / Blue Team et propose trois modes pri
 Le projet est basé sur une architecture modulaire avec des plugins :
 project/
 ├── plugins/
+
 │ ├── scan/
+
 │ ├── attack/
+
 │ └── harden/
 │
 ├── config/
